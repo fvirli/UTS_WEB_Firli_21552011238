@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Firli Setiani and bootsrap examples">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Layover</title>
+    <link rel="canonical" href="https:Layover.com/uts/pm_web/Firli/21552011238">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="/docs/5.3/dist/css/bootsrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold; 
+    font-size: 24px; 
+    text-transform: uppercase; 
+    margin-right: 10px; 
+}
+.navbar-toggler-icon {
+    background-color: #ffffff; 
+}
+.navbar-toggler {
+    border: 2px solid #ffffff; 
+}
+/* ikon */
+.navbar-brand::after {
+    content: "\2022"; 
+    margin-left: 5px; 
+}
+.btn {
+    color: black;
+}
+.featurette {
+    margin-bottom: 120px;
+    margin-top: 120px;
+}    
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(94, 155, 190);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Layover</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Article and Information yang mengarah ke halaman artikel dan informasi -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="article-information.html">Article and Information</a>
+                    </li>
+                    <!-- Login yang mengarah ke halaman login -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <!-- Join Us yang mengarah ke halaman registrasi -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Join Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <img src="img/bg-1.jpg" class="img-fluid" alt="LAYOVER" style="margin-bottom: 40px;">
+
+    <div class="container info">
+        <!-- Three columns of text below the carousel -->
+        <div class="row" >
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <!-- Menggunakan clip-path untuk membuat gambar menjadi lingkaran -->
+                    <clipPath id="circleClip">
+                        <circle cx="70" cy="70" r="70" />
+                    </clipPath>
+                    <!-- Memasukkan gambar dengan clip-path -->
+                    <image href="img/info.png" width="140" height="140" clip-path="url(#circleClip)" />
+                </svg>
+                <h2 class="fw-normal">Information</h2>
+                <p>Menyediakan artikel, berita, dan informasi terkini terkait kesehatan mental dan kesejahteraan.</p>
+                <p><a class="btn btn-secondary" href="#featurette1">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <!-- Menggunakan clip-path untuk membuat gambar menjadi lingkaran -->
+                    <clipPath id="circleClip">
+                        <circle cx="70" cy="70" r="70" />
+                    </clipPath>
+                    <!-- Memasukkan gambar dengan clip-path -->
+                    <image href="img/community.png" width="140" height="140" clip-path="url(#circleClip)" />
+                </svg>
+                <h2 class="fw-normal">Community</h2>
+                <p>Platform diskusi atau forum untuk memungkinkan pengguna berbagi pengalaman, memberikan dukungan, dan saling bertukar informasi.</p>
+                <p><a class="btn btn-secondary" href="#featurette2">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <!-- Menggunakan clip-path untuk membuat gambar menjadi lingkaran -->
+                    <clipPath id="circleClip">
+                        <circle cx="70" cy="70" r="70" />
+                    </clipPath>
+                    <!-- Memasukkan gambar dengan clip-path -->
+                    <image href="img/help.png" width="140" height="140" clip-path="url(#circleClip)" />
+                </svg>
+                <h2 class="fw-normal">Conseling Online</h2>
+                <p>Menyediakan konseling online untuk pengguna yang membutuhkan bantuan dari profesional kesehatan mental.</p>
+                <p><a class="btn btn-secondary" href="#featurette3">View details &raquo;</a></p>
+            </div>
+            <!-- /.row -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="featurette1">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Jelajahi Kesehatan Mental dengan Informasi Terkini</h2>
+            <p class="lead">Dapatkan wawasan mendalam tentang kesehatan mental dan kesejahteraan melalui artikel, berita, dan informasi terkini. Kami hadir untuk memberikan pengetahuan yang memotivasi dan membimbing Anda menuju perjalanan kesehatan mental yang lebih baik.</p>
+            </div>
+        <div class="col-md-5">
+        <img src="img/img-information.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Placeholder: 500x500">
+        </div>
+    </div>
+            
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="featurette2">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Bersama-sama Menuju Kesehatan Mental yang Lebih Baik</h2>
+        <p class="lead">Jadilah bagian dari komunitas kami yang ramah, di mana Anda dapat berbagi pengalaman, memberikan dukungan, dan bertukar informasi. Di sini, kami menyatukan hati-hati untuk memberikan dukungan yang dibutuhkan dalam perjalanan Anda.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/img-community.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Placeholder: 500x500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="featurette3">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Dukungan Konseling Online untuk Kesehatan Mental Anda</h2>
+        <p class="lead">Temui profesional kesehatan mental kami secara daring. Layanan konseling online kami hadir untuk memberikan bantuan terpercaya dan mendukung Anda melalui tantangan kehidupan. Jangan biarkan perasaan tertekan menjadi beban - kita ada di sini untuk Anda.</p>
+      </div>
+      <div class="col-md-5" >
+        <img src="img/img-konseling.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="Placeholder: 500x500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; Copyright by 21552011238_FIRLI SETIANI_TIF221PA &middot;</p>
+      </footer>
+    
+    <script>
+    document.getElementById('search-form').addEventListener('submit', function (event) {
+        event.preventDefault();     
+        var searchTerm = document.getElementById('search-input').value.toLowerCase();
+        var pageText = document.body.innerText.toLowerCase();
+        if (pageText.includes(searchTerm)) {
+            alert('Kata kunci ditemukan!');
+        } else {
+            alert('Kata kunci tidak ditemukan.');
+        }
+    });
+    </script>
+</body>
+
+</html>

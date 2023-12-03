@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Firli Setiani and bootsrap examples">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Layover/community</title>
+    <link rel="canonical" href="https:Layover.com/community/uts/pm_web/Firli/21552011238">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold; 
+    font-size: 24px; 
+    text-transform: uppercase; 
+    margin-right: 10px; 
+}
+.navbar-toggler-icon {
+    background-color: #ffffff; 
+}
+.navbar-toggler {
+    border: 2px solid #ffffff; 
+}
+/* ikon */
+.navbar-brand::after {
+    content: "\2022"; 
+    margin-left: 5px; 
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  } 
+</style>
+
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(94, 155, 190);">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Layover</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success text-black" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </header>
+
+    <main>
+    <section class="py-5 text-center container-fluid" style="background-color: rgb(94, 155, 190);">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-white font-weight-bold">Community</h1>
+            <p class="lead text-muted">
+                <strong> Community di Layover adalah tempat di mana pengguna dapat bersatu dalam suasana yang ramah dan mendukung</strong>
+                Anda dapat berbagi pengalaman, memberikan dukungan, dan bertukar informasi seputar kesehatan mental dan kesejahteraan. 
+                Komunitas Layover didesain untuk menjadi wadah yang aman, di mana setiap anggota dapat merasa didengar dan dipahami.
+            </p>
+        </div>
+    </section>
+
+            <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom">My Community</h2>
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img-community3.png" alt="Community" class="d-block w-100 h-100">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-community1.png" alt="Conseling" class="d-block w-100 h-100">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-community2.png" alt="Information" class="d-block w-100 h-100">
+        </div>
+      </div> 
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+    </main>
+    <hr class="featurette-divider">
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; Copyright by 21552011238_FIRLI SETIANI_TIF221PA &middot;</p>
+    </footer>  
+
+    <script>
+        document.getElementById('search-form').addEventListener('submit', function (event) {
+            event.preventDefault();     
+            var searchTerm = document.getElementById('search-input').value.toLowerCase();
+            var pageText = document.body.innerText.toLowerCase();
+            if (pageText.includes(searchTerm)) {
+                alert('Kata kunci ditemukan!');
+            } else {
+                alert('Kata kunci tidak ditemukan.');
+            }
+        });
+    </script>
+  </body>
+</html>
+        

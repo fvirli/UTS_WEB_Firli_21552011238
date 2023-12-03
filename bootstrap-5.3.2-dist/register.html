@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layover/Register Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> 
+</head>
+
+<style>
+body{
+    background: rgb(94, 155, 190);
+    color: rgb(94, 155, 190);
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+    color: #000; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    background-color: rgb(94, 155, 190) ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.login-text {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.welcome-text {
+    text-align: center;
+    margin-bottom: 27px;
+    color: white;
+    font-size: 40px;
+    font-weight:bold;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="welcome-text">
+            <p style="margin-bottom: 5px; margin-right: 240px;">LAYOVER</p>
+        </div>
+        <div class="register-form">
+            <h1 class="h1">Register</h1>
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Confirm Password</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+            <div class="login-text">
+                <p>Sudah punya akun? <a href="login.html">Login disini</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="text-white align-items-center">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; Copyright by 21552011238_FIRLI SETIANI_TIF221PA &middot;</p>
+    </footer>
+</body>
+
+</html>
